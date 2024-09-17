@@ -53,7 +53,7 @@ def save_tracks_to_file(tracks, filename):
 access_token = 'BQDPDWZJgSR6pFRfvvKu_3Vx2Bu__zVtk-mgRs50412OE-PSIQiSuLhNoKzsLSnN11tZBnl2qvpCxTsT37Zs9byYFPCic6o9cx2jMY2ICPAXLpbCqrY'
 # playlist_id = '1WZSJgwtsA6LFMypnCEI6d' #https://open.spotify.com/playlist/1WZSJgwtsA6LFMypnCEI6d?si=2a96a04f02dc46e7
 output_filename = 'all_playlist_tracks.txt'
-# playlist_id = '2Wmv4FsoPRrVRpyXWZKaz8'
+#playlist_id = '3dviBA7fJkKYxuUYPa5ItD'
 playlist_id = ask_for_playlist()
 
 # Récupérer tous les titres de la playlist
