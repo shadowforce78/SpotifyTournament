@@ -1,5 +1,6 @@
 
 import requests
+import get_token
 from ask_for_playlist import ask_for_playlist
 
 def get_access_token(filename):
@@ -50,7 +51,7 @@ def save_tracks_to_file(tracks, filename):
             file.write(track + "\n")
 
 # URL de la playlist Spotify publique
-access_token = 'BQDPDWZJgSR6pFRfvvKu_3Vx2Bu__zVtk-mgRs50412OE-PSIQiSuLhNoKzsLSnN11tZBnl2qvpCxTsT37Zs9byYFPCic6o9cx2jMY2ICPAXLpbCqrY'
+access_token = get_token.get_spotify_token()
 # playlist_id = '1WZSJgwtsA6LFMypnCEI6d' #https://open.spotify.com/playlist/1WZSJgwtsA6LFMypnCEI6d?si=2a96a04f02dc46e7
 output_filename = 'all_playlist_tracks.txt'
 #playlist_id = '3dviBA7fJkKYxuUYPa5ItD'

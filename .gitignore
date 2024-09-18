@@ -1,6 +1,7 @@
 __pycache__
 get_token.bat
 get_token.sh
+get_token.py
 all_playlist_tracks.txt
 tournament_matches.txt
 tournament_state.json
